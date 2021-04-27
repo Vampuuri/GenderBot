@@ -17,26 +17,18 @@ Commands
 
 Commands are usable only by servers admin
 
-!genderbot init
-    Creates a message that will be used to add roles for users
+!genderbot init - Creates a message that will be used to add roles for users
         
-!genderbot deleteinit
-    Deletes previous init message
+!genderbot deleteinit - Deletes previous init message
         
-!genderbot updateinit
-    Updates init message
+!genderbot updateinit - Updates init message
         
-!genderbot add [emoji] [pronouns]
-    Creates a new pronoun and role for that pronoun
+!genderbot add [emoji] [pronouns] - Creates a new pronoun and role for that pronoun
         
-!genderbot delete [pronouns]
-    Deletes specified pronoun and role for that pronoun
+!genderbot delete [pronouns] - Deletes specified pronoun and role for that pronoun
         
-!genderbot editpronoun [pronouns] [newpronouns]
-    Updates specified pronouns' name
+!genderbot editpronoun [pronouns] [newpronouns] - Updates specified pronouns' name
 
-!genderbot editemoji [pronouns] [emoji]
-    Updates specified pronouns' emoji
+!genderbot editemoji [pronouns] [emoji] - Updates specified pronouns' emoji
 
-!genderbot editcolor [pronouns] [color]
-    Updates specified pronouns' role's color. See color options here: https://discord.js.org/#/docs/main/master/typedef/ColorResolvable
+!genderbot editcolor [pronouns] [color] - Updates specified pronouns' role's color. See color options here: https://discord.js.org/#/docs/main/master/typedef/ColorResolvable
